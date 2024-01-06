@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+body {
+  width: 1600px;
+  height: 3229px;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  height: 808px;
+}
+
+.header-box {
+  padding: 278px 630px 166px 1010px;
+}
+
+.header-titler {
+  color: #fff;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  width: 525px;
+}
+
+.header-discription {
+  color: #fff;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 16px;
+  width: 494px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.btn-header {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fff;
+  color: #005fac;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  margin-left: 330px;
+}
+
+.myfailer {
+  margin-top: 100px;
+}
+
+.failer-contant {
+  padding: 256px 22px 189px 82px;
+}
+
+.failar-container {
+  display: flex;
+  gap: 134px;
+  justify-content: center;
+}
+
+.failer-img {
+  width: 451px;
+  height: 898px;
+}
+
+.failer-htitle {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  width: 288px;
+  font-weight: 700;
+}
+
+.failer-p {
+  width: 416px;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.list {
+  width: 416px;
+}
+
+.list-item {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.skill-sec {
+  width: 1600px;
+  margin: auto;
+}
+
+.skill-title {
+  color: #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+
+  font-weight: 700;
+}
+
+.skill-container {
+  display: flex;
+  padding: 50px 250px;
+  gap: 100px;
+}
+
+.skill-contant {
+  padding: 0;
+}
+
+.skill-con-title {
+  color: #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.skill-discription {
+  color: #737272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+}
+
+/* section banner style start */
+.banner {
+  width: 1140px;
+  height: 300px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-left: 230px;
+}
+.container {
+  display: flex;
+}
+
+.bg-img {
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  border-radius: 8px;
+}
+.gradiant-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+}
+.banner-contant {
+  position: relative;
+  z-index: 1;
+  padding-left: 20px;
+  color: #fff;
+}
+.banner-title {
+  width: 459px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+
+  font-weight: 700;
+}
+.banner-button {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fff;
+  color: #005fac;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer {
+  width: 1600px;
+  height: 577px;
+  background: #151414;
+  margin-top: 100px;
+}
+.footer-container {
+    padding: 130px 230px 230px 130px;
+  display: flex;
+  align-content: space-between;
+  gap: 500px;
+}
+.info{align-items: center;}
+.f-title{color: #F8F8F8;
+
+    font-family: Work Sans;
+    font-size: 45px;
+    
+    font-weight: 700;
+    }
+    .f-contant{
+        width: 485px;
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;}
+        .icons{
+            display: flex;
+            gap: 28px;
+            width: 175px;
+            height: 46px;}
+
+.f-right{width: 485px;}
+.f2-title{color: #FFF;
+
+    font-family: Work Sans;
+    font-size: 25px;
+    
+    font-weight: 600;}
+    .f2-text{width: 325px;
+        height: 64px;border-radius: 8px;
+        border: 1px solid #FFF;
+        color: #F3F3F3;
+        font-family: Work Sans;
+        font-size: 18px;
+        
+        font-weight: 400;}
+        .footer-button{width: 170.106px;
+            height: 64px;border-radius: 8px;
+            background: #005FAC;color: #FFF;
+
+            font-family: Inter;
+            font-size: 20px;
+            
+            font-weight: 600;}
